@@ -1,0 +1,44 @@
+# REFERENCE
+
+https://docs.google.com/document/d/1FC4tgpnwNo8EVPAWh4h07_6tk_3BsWyBqGru5PKlpus/edit
+
+# Fekri
+
+- Show spinner while loading the payment page for parent and child subscriptions (Done)
+- Add extra fields for interests (Backend) (Done)
+- Fix the send again timer in email verification page (Done)
+- Add another step for child subscriptions in the on boarding (Done)
+- Add another step for calendar in the on boarding (Done)
+- Make sure that if one step from the boarding is not applied user should be blocked (Done)
+
+# Anas
+
+- Add extra fields for interests (Frontend)
+- Change Child Added modal cancel button to "DONE" instead of cancel
+- Merge the navbar with the dashboard
+- Modify the age text in matching modal to be "at most 1 year difference"
+- remove the modal for matches results
+- if there is no interests but "any" instead of blank in matching modal
+- add a tooltip for interests that saying "This will prioritize matches according to interests. Leave empty to find children with any interests"
+- Remove the clear history feature
+- Move the add child button to the top with a text near to it
+- Footer Problem
+
+# Mohamed
+
+- Change landing page description to "Arrange safe playdates for kids with ease"
+- Remove invest section form landing page and put a button in the navbar instead (leave the same styles for "invest now" button) this button should sends a mail to "ahmed.wessam@bld.ai"
+- Lower the height of header section in landing page to 80vh or something to show that there are another content
+- Remove dashboard Link if user is not authenticated
+- Remove invest button from navlinks
+- Increase navlinks spacing a bit
+- Get started button should redirect to sign up if user is not authenticated otherwise it should be "Start Matching" which redirect to Children tab
+- Remove username from registration (Normal register && google and facebook)
+
+# Sara
+
+- Emails modifications to render static files
+
+# Ahmed
+
+- Reset password shouldn't be working for google and facebook users
