@@ -27,9 +27,7 @@ searches_all = [
     "people face images",
 ]
 
-searches = [
-    searches_all[13]
-]
+searches = searches_all
 
 num_images = 50
 
@@ -63,8 +61,9 @@ for search in searches:
     driver.get("https://www.google.com/imghp")
 
     # wait for the search box element to become visible
+    # time.sleep(500)
     wait = WebDriverWait(driver, 10)
-    box = driver.find_element(By.XPATH, '//input[@name="q"]')
+    box = driver.find_element(By.XPATH, '//textarea[@name="q"]')
 
     box.send_keys(search_query)
     box.send_keys(Keys.ENTER)
